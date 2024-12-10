@@ -1,0 +1,105 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and Container Styling */
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+    color: #333;
+  }
+  
+  .container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Main Heading */
+  h1 {
+    font-size: 36px;
+    color: #004080;
+    margin-bottom: 20px;
+  }
+  
+  /* Section Styling */
+  .role-section {
+    margin: 20px 0;
+    padding: 10px 0;
+    border-bottom: 2px solid #004080;
+  }
+  
+  .role-section h2 {
+    color: #004080;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  /* Teacher Cards */
+  .teacher-card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #ffffff;
+    border: 1px solid #004080;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 15px;
+    margin: 10px auto;
+    max-width: 700px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease;
+  }
+  
+  .teacher-card:hover {
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Avatar */
+  .teacher-image .avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #004080;
+    color: #ffffff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 15px;
+    text-transform: uppercase;
+  }
+  
+  /* Teacher Info Styling */
+  .teacher-info {
+    text-align: left;
+    flex: 1;
+  }
+  
+  .teacher-info h2 {
+    font-size: 20px;
+    color: #004080;
+  }
+  
+  .teacher-info p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .teacher-info a {
+    color: #004080;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .teacher-info a:hover {
+    color: #002050;
+  }
+  

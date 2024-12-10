@@ -1,0 +1,99 @@
+/* Reset for a clean slate */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body & General */
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #e0eafc, #004080);
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header Section */
+  header {
+    text-align: center;
+    background-color: #004080;
+    color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  header h1 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+  
+  /* Gallery Section */
+  .gallery {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .gallery h2 {
+    margin-bottom: 15px;
+    color: #004080;
+  }
+  
+  .images-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Add space between images */
+    margin: 20px 0;
+  }
+  
+  .image-card {
+    border: 2px solid #004080;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .image-card img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+  
+  .image-card:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Thoughts Section */
+  .thoughts {
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .thoughts h2 {
+    color: #004080;
+    margin-bottom: 10px;
+  }
+  
+  .text-section {
+    margin: 10px auto;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+    padding: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #004080;
+    color: #fff;
+    font-size: 14px;
+    border-top: 2px solid #555;
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #002b80;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.batch-photo-container {
+    margin-bottom: 20px;
+}
+
+.batch-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.bio {
+    background-color: #e6f7ff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.description code {
+    display: block;
+    white-space: pre-wrap;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #444;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #004c99;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003366;
+}
+
+.output {
+    display: none;
+    background-color: #dff0d8;
+    padding: 15px;
+    border: 1px solid #3c763d;
+    border-radius: 5px;
+    color: #3c763d;
+    margin-top: 20px;
+}
+
+.creator-title {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.creator-name {
+    font-weight: bold;
+}
+.contributer-name{
+    font-weight: bold;
+}
+.creator-description {
+    font-size: 0.9em;
+    color: #555;
+}
