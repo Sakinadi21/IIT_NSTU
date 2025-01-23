@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Year and Course Selection</title>
+    <link rel="stylesheet" href="c.css">
+</head>
+<body>
+    <div id="main-container">
+        <h1>Select Year and Course</h1>
+        <div id="year-container">
+            <button class="year-btn" onclick="showSemesters(1)">1st Year</button>
+            <button class="year-btn" onclick="showSemesters(2)">2nd Year</button>
+            <button class="year-btn" onclick="showSemesters(3)">3rd Year</button>
+            <button class="year-btn" onclick="showSemesters(4)">4th Year</button>
+        </div>
+        <div id="semester-container" class="hidden"></div>
+        <div id="course-container" class="hidden"></div>
+        <div id="resource-container" class="hidden"></div>
+        <div id="detail-container" class="hidden"></div>
+    </div>
+    <script src="c.js"></script>
+</body>
+</html>

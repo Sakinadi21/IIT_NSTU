@@ -12,11 +12,11 @@ const courses = {
          books: [
             { title: "Teach Yourself C", link: "https://example.com/teach-yourself-c" },
             { title: "Effective Java", link: "https://example.com/effective-java" }
-        ],
-         question: [
-        { title: "CT", link: "https://example.com/ct" },
-        { title: "Main Exam", link: "https://example.com/main-exam" }
-        ]
+        // ],
+        //  question: [
+        // { title: "CT", link: "https://example.com/ct" },
+        // { title: "Main Exam", link: "https://example.com/main-exam" }
+         ]
     },
     'Discrete Mathematics': {
         class: [
@@ -28,11 +28,12 @@ const courses = {
         books: [
             { title: "Discrete Mathematics and Its Applications", link: "https://example.com/discrete-maths" },
             { title: "Introduction to Graph Theory", link: "https://example.com/graph-theory" }
-        ],
-        question: [
-            { title: "CT", link: "https://example.com/ct" },
-            { title: "Main Exam", link: "https://example.com/main-exam" }
         ]
+        //,
+        // question: [
+        //     { title: "CT", link: "https://example.com/ct" },
+        //     { title: "Main Exam", link: "https://example.com/main-exam" }
+        // ]
     },
     'Probability and Statistics for Engineers-I': {
         class: [
@@ -44,11 +45,12 @@ const courses = {
         books: [
             { title: "Introduction to Probability", link: "https://example.com/probability-book" },
             { title: "Statistics for Engineers", link: "https://example.com/statistics-book" }
-        ],
-        question: [
-            { title: "CT", link: "https://example.com/ct" },
-            { title: "Main Exam", link: "https://example.com/main-exam" }
         ]
+        // ,
+        // question: [
+        //     { title: "CT", link: "https://example.com/ct" },
+        //     { title: "Main Exam", link: "https://example.com/main-exam" }
+        // ]
     },
     'Calculus and Analytical Geometry': {
         class: [
@@ -62,11 +64,12 @@ const courses = {
         books: [
             { title: "Calculus: Early Transcendentals", link: "https://example.com/calculus-book" },
             { title: "Analytical Geometry", link: "https://example.com/analytical-geometry-book" }
-        ],
-        question: [
-            { title: "CT", link: "https://example.com/ct" },
-            { title: "Main Exam", link: "https://example.com/main-exam" }
         ]
+        // ,
+        // question: [
+        //     { title: "CT", link: "https://example.com/ct" },
+        //     { title: "Main Exam", link: "https://example.com/main-exam" }
+        // ]
     },
     'Soft Skill Communication': {
         class: [
@@ -148,11 +151,12 @@ const courses = {
         books: [
             { title: "Rabindranath Tagore: A Biography", link: "https://example.com/tagore-biography" },
             { title: "The Essential Kazi Nazrul Islam", link: "https://example.com/nazrul-essentials" }
-        ],
-        question: [
-            { title: "CT", link: "https://example.com/ct" },
-            { title: "Main Exam", link: "https://example.com/main-exam" }
         ]
+        // ,
+        // question: [
+        //     { title: "CT", link: "https://example.com/ct" },
+        //     { title: "Main Exam", link: "https://example.com/main-exam" }
+        // ]
     },
     'History and Emergence of Bangladesh': {
         class: [
