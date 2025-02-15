@@ -1,3 +1,54 @@
+/* Navbar */
+.navbar {
+    background: #004aad; /* Deep Blue */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffcc00; /* Yellow Hover */
+}
+
+/* Footer */
+.footer {
+    background: #004aad; /* Deep Blue */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 1rem;
+}
+
+
+
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f2f2f2;

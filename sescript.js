@@ -382,3 +382,11 @@ seeLessButton.addEventListener("click", () => {
     seeMoreButton.style.display = "inline-block"; // Show "See More" button
     seeLessButton.style.display = "none"; // Hide "See Less" button
 });
+document.addEventListener("DOMContentLoaded", () => {
+    const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.querySelector(".nav-links");
+
+    hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+    });
+});

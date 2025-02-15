@@ -8,12 +8,28 @@
     <link rel="stylesheet" href="last.css">
 </head>
 <body>
-    <div class="container">
+
+    <!-- ✅ Navbar -->
+    <nav class="navbar">
+        <div class="logo">IIT 6th Batch</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#batch-photo">Batch Photo</a></li>
+            <li><a href="#bio">Bio</a></li>
+            <li><a href="#contributions">Contributions</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">&#9776;</div>
+    </nav>
+
+    <div class="container" id="home">
         <h1 class="title">IIT-6th Batch</h1>
-        <div class="batch-photo-container">
+        
+        <div class="batch-photo-container" id="batch-photo">
             <img src="we/SAVE_20241106_193654.jpg" alt="Batch Photo with Names" class="batch-photo">
         </div>
-        <div class="bio">
+
+        <div class="bio" id="bio">
             <p class="description">
                 <code>
                 #include &lt;stdio.h&gt;<br>
@@ -36,6 +52,7 @@
             </p>
             <button onclick="showOutput()">Click to See Output</button>
         </div>
+
         <div class="output" id="output">
             <p>Dear IIT,</p>
             <p>In the journey of digitalization, we dreamt of, "Made in Bangladesh, Made for the world."</p>
@@ -47,7 +64,8 @@
             <p>#IIT_6th</p>
             <p>#SofTwaRE_Engineering er polaPAIN</p>
         </div>
-        <div class="senior-info">
+
+        <div class="senior-info" id="contributions">
             <h2 class="creator-title">Website Created By</h2>
             <p class="creator-name">Sakiba Belal</p>
 
@@ -56,15 +74,23 @@
                   <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" class="github-logo">
                   Visit My GitHub
                 </a>
-              </div>
-
+            </div>
 
             <h2 class="creator-title">Contributed By </h2>
             <p class="contributer-name">Md. Shamsuddoha</p>
-           
-           
         </div>
     </div>
+
+    <!-- ✅ Footer -->
+    <footer class="footer" id="contact">
+        <p>&copy; 2025 Senior IIT 6th Batch | All Rights Reserved</p>
+        <div class="social-links">
+            <a href="https://github.com/Sakinadi21" target="_blank">GitHub</a> |
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> |
+            <a href="mailto:sakiba.belal@example.com">Email</a>
+        </div>
+    </footer>
+
     <script src="lascript.js"></script>
 </body>
 </html>

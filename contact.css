@@ -1,3 +1,62 @@
+/* Blue-themed navbar */
+nav {
+    background-color: #1E3A8A; /* Dark Blue */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #93C5FD; /* Light Blue */
+}
+
+/* Blue-themed footer */
+footer {
+    background-color: #1E40AF; /* Deep Blue */
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #93C5FD; /* Light Blue */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+
+
 #resources, #testimonials, #contact, #newsletter, #discussion-forum, #career-guidance {
     margin: 20px;
     padding: 20px;

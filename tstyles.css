@@ -1,4 +1,79 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #004080; /* Dark Blue */
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #66b3ff; /* Light Blue */
+}
+
+/* Footer */
+.footer {
+  background: #002855; /* Deep Blue */
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+/* Hamburger Menu for Mobile */
+.hamburger {
+  display: none;
+  font-size: 1.8em;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 50px;
+      right: 10px;
+      background: #003366; /* Slightly Darker Blue */
+      width: 200px;
+      padding: 10px;
+      text-align: right;
+      border-radius: 5px;
+  }
+
+  .nav-links.show {
+      display: flex;
+  }
+
+  .hamburger {
+      display: block;
+  }
+}
 /* General Reset */
+
 * {
     margin: 0;
     padding: 0;

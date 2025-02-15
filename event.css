@@ -1,3 +1,47 @@
+
+/* Blue-themed navbar */
+nav {
+    background-color: #1E40AF; /* Dark Blue */
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #3B82F6; /* Lighter Blue */
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+/* Footer */
+footer {
+    background-color: #1E40AF;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
 #event-calendar, #faqs {
     margin: 20px;
     padding: 20px;
