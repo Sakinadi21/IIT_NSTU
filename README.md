@@ -1,3 +1,1 @@
-NSTU IIT\n
-Sakiba Belal\n
-BFH2325008F
+NSTU IIT
