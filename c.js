@@ -347,3 +347,23 @@ window.addEventListener("scroll", function() {
         footer.style.display = "none";
     }
 });
+
+
+
+  // Google-Style Three Dots Menu
+  const dots = document.querySelector(".dots");
+  const menu = document.getElementById("dropdownMenu");
+
+  if (dots && menu) {
+      dots.addEventListener("click", function(event) {
+          event.stopPropagation(); // Prevent immediate closure
+          menu.style.display = (menu.style.display === "block") ? "none" : "block";
+      });
+
+      // Close the menu if clicked outside
+      document.addEventListener("click", function(event) {
+          if (!menu.contains(event.target) && !dots.contains(event.target)) {
+              menu.style.display = "none";
+          }
+      });
+    }
