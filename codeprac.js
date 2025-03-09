@@ -7,3 +7,14 @@ function filterPlatforms() {
         link.style.display = text.includes(input) ? 'block' : 'none';
     });
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    const navbar = document.querySelector(".nav-links");
+    const logo = document.querySelector(".logo");
+
+    if (logo) {
+        logo.addEventListener("click", function() {
+            navbar.classList.toggle("show");
+        });
+    }
+});
