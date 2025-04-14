@@ -1,0 +1,180 @@
+/* Reset for a clean slate */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #e0eafc, #003366); /* Darker blue for depth */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header Section */
+header {
+  text-align: center;
+  background: linear-gradient(to right, #004080, #0056b3);
+  color: #ffffff;
+  padding: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 36px;
+  font-weight: 600;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Blue Theme Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #0056b3, #004080);
+  padding: 15px 20px;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: #cce7ff; /* Soft light blue */
+}
+
+.hamburger {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+  color: white;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+  .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background: #004080;
+      width: 100%;
+      padding: 10px 0;
+      text-align: center;
+  }
+
+  .nav-links li {
+      padding: 10px 0;
+  }
+
+  .hamburger {
+      display: block;
+  }
+
+  .nav-links.show {
+      display: flex;
+  }
+}
+
+/* Gallery Section */
+.gallery {
+  padding: 20px;
+  text-align: center;
+}
+
+.gallery h2 {
+  margin-bottom: 15px;
+  color: #004080;
+  font-size: 28px;
+}
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px; /* Add space between images */
+  margin: 20px 0;
+}
+
+.image-card {
+  border: 3px solid #004080;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.image-card img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.image-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Thoughts Section */
+.thoughts {
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.thoughts h2 {
+  color: #004080;
+  margin-bottom: 10px;
+  font-size: 26px;
+}
+
+.text-section {
+  margin: 10px auto;
+  font-size: 17px;
+  color: #333;
+  line-height: 1.8;
+  padding: 15px;
+  background: #f4faff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px 0;
+  background: linear-gradient(to right, #004080, #003366);
+  color: #fff;
+  font-size: 14px;
+  border-top: 2px solid #555;
+  margin-top: 20px;
+}

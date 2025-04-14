@@ -1,0 +1,160 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5faff;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #004080; /* Dark Blue */
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #66b3ff; /* Light Blue */
+}
+
+/* Hamburger Menu for Mobile */
+.hamburger {
+    display: none;
+    font-size: 1.8em;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        background: #003366;
+        width: 200px;
+        padding: 10px;
+        text-align: right;
+        border-radius: 5px;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
+/* About Section */
+.about-section {
+    text-align: center;
+    padding: 50px 20px;
+    background: #e0f0ff;
+    color: #004080;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #002855;
+}
+
+.about-container p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.about-container ul {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.about-container li {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+/* Footer */
+.footer {
+    background: #002855;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+
+
+
+.three-dots {
+    position: relative;
+    cursor: pointer;
+}
+
+.dots {
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: 200px;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s;
+}
+
+.dropdown-menu a:hover {
+    background: #f0f0f0;
+}

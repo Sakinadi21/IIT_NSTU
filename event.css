@@ -1,0 +1,67 @@
+
+/* Blue-themed navbar */
+nav {
+    background-color: #1E40AF; /* Dark Blue */
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #3B82F6; /* Lighter Blue */
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+/* Footer */
+footer {
+    background-color: #1E40AF;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#event-calendar, #faqs {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* White background for the section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for elevation */
+}
+
+.event-card, .faq-item {
+    margin-bottom: 15px; /* Space between cards/items */
+    padding: 15px;
+    border: 1px solid #ccc; /* Border for cards/items */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background for cards/items */
+}
+
+h2 {
+    color: #0056b3; /* Color for section headings */
+}
+
+h3 {
+    color: #0056b3; /* Color for sub-headings */
+}

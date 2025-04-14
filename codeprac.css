@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a192f;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #112240;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 173, 239, 0.7);
+}
+
+h1 {
+    font-size: 24px;
+    color: #64ffda;
+}
+
+h2 {
+    font-size: 20px;
+    color: #00aaff;
+    margin-top: 15px;
+    border-bottom: 1px solid #00aaff;
+    padding-bottom: 5px;
+}
+
+#searchBar {
+    width: 80%;
+    padding: 10px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#platformList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.platform {
+    text-decoration: none;
+    color: #00d4ff;
+    background: #0a2239;
+    padding: 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+.platform:hover {
+    background: #007bff;
+    color: #fff;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #112240;
+    padding: 15px 20px;
+    box-shadow: 0px 0px 10px rgba(0, 173, 239, 0.7);
+}
+
+.navbar .logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #64ffda;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #00d4ff;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    background: #007bff;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #0a2239;
+        width: 100%;
+        position: absolute;
+        top: 55px;
+        left: 0;
+        box-shadow: 0px 4px 10px rgba(0, 173, 239, 0.7);
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,256 @@
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #004080; /* Dark Blue */
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.navbar img{
+    height: 25px;
+    width: 25px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #66b3ff; /* Light Blue */
+}
+
+/* Hamburger for Mobile */
+.hamburger {
+    display: none;
+    font-size: 1.8em;
+    cursor: pointer;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        background: #003366; /* Slightly Darker Blue */
+        width: 200px;
+        padding: 10px;
+        text-align: right;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
+/* Footer */
+.footer {
+    background: #004080; /* Dark Blue */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #66b3ff; /* Light Blue */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Batch Photo */
+.batch-photo-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.batch-photo {
+    width: 80%;
+    max-width: 600px;
+    border: 5px solid #004080;
+    border-radius: 10px;
+}
+
+/* Creator Info */
+.creator-title {
+    color: #004080;
+    font-weight: bold;
+    text-align: center;
+}
+
+.creator-name {
+    text-align: center;
+    font-size: 1.2em;
+    color: #003366;
+}
+
+/* GitHub Link */
+.github-container {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.github-logo {
+    width: 30px;
+    vertical-align: middle;
+}
+
+#github-link {
+    text-decoration: none;
+    color: #004080;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#github-link:hover {
+    color: #66b3ff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #002b80;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.batch-photo-container {
+    margin-bottom: 20px;
+}
+
+.batch-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.bio {
+    background-color: #e6f7ff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.description code {
+    display: block;
+    white-space: pre-wrap;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #444;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #004c99;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003366;
+}
+
+.output {
+    display: none;
+    background-color: #dff0d8;
+    padding: 15px;
+    border: 1px solid #3c763d;
+    border-radius: 5px;
+    color: #3c763d;
+    margin-top: 20px;
+}
+
+.creator-title {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.creator-name {
+    font-weight: bold;
+}
+.contributer-name{
+    font-weight: bold;
+}
+.creator-description {
+    font-size: 0.9em;
+    color: #555;
+}
+
+
+
+
+.github-container {
+    text-align: center;
+  }
+  
+  #github-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #002b80;
+    font-size: .80rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #002b80;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .github-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #github-link:hover {
+    background-color: #002b80;
+    color: #fff;
+  }
+  
+  #github-link:hover .github-logo {
+    transform: scale(1.2);
+  }

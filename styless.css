@@ -1,0 +1,127 @@
+/* Navbar Styling */
+nav {
+    background-color: #0056b3; /* Blue background */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #0056b3; /* Dark blue background */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    height: 3%;
+    bottom: 0;
+    display:none;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif; /* Changed to Roboto for a modern look */
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0056b3;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+#club-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid layout */
+    gap: 20px; /* Space between cards */
+    margin: 20px;
+}
+
+.club-card {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #004599; /* Added border for box effect */
+    position: relative;
+}
+
+.club-card h2 {
+    margin: 0 0 10px; /* Spacing below the title */
+    font-weight: bold; /* Bold font for title */
+    font-size: 1.5rem; /* Increased font size */
+}
+
+.club-details {
+    display: none; /* Hidden by default */
+    margin-top: 10px; /* Spacing above details */
+    background-color: #e7f3ff; /* Light background for details */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #000; /* Black text for details */
+    font-size: 1rem; /* Font size for details */
+    text-align: left; /* Left align for better readability */
+}
+
+.club-card:hover {
+    background-color: #004599;
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.club-card a {
+    color: #0056b3;
+    text-decoration: underline;
+    margin-top: 10px;
+    display: block; /* Make link a block for better click area */
+    font-weight: bold; /* Bold font for link */
+}
+
+.club-card a:hover {
+    color: #003d7a; /* Darker color on hover */
+}

@@ -1,0 +1,138 @@
+/* Body setup */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #0d47a1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; /* Center content horizontally */
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar */
+.navbar {
+    background: #004aad; /* Deep Blue */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    width: 100%;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffcc00; /* Yellow Hover */
+}
+
+/* Main container centered */
+#main-container {
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #0d47a1;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 40px; /* Space after the navbar */
+}
+
+/* Heading inside main container */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0d47a1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #1565c0;
+}
+
+/* Hidden classes */
+.hidden {
+    display: none;
+}
+
+/* Footer styling */
+.footer {
+    background: #004aad; /* Deep Blue */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    font-size: 1rem;
+}
+
+
+.three-dots {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .dots {
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: 200px;
+    z-index: 100;
+    overflow: hidden;
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s;
+  }
+  
+  .dropdown-menu a:hover {
+    background: #f0f0f0;
+  }

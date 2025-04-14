@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IELTS Preparation</title>
+    <link rel="stylesheet" href="ielts.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">IELTS Prep</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#categories-container">Categories</a></li>
+            <li><a href="#resources-container">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Welcome to IELTS Preparation</h1>
+        <p>Prepare for the IELTS exam with these resources.</p>
+    </header>
+
+    <!-- Main Content -->
+    <div id="main-container">
+        <h1>IELTS Preparation Resources</h1>
+        <div id="categories-container">
+            <button class="category-btn" onclick="showResources('Listening')">Listening</button>
+            <button class="category-btn" onclick="showResources('Reading')">Reading</button>
+            <button class="category-btn" onclick="showResources('Writing')">Writing</button>
+            <button class="category-btn" onclick="showResources('Speaking')">Speaking</button>
+        </div>
+        <div id="resources-container" class="hidden"></div>
+        <div id="details-container" class="hidden"></div>
+    </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 IELTS Preparation Hub | Designed by IIT-6th Batch</p>
+    </footer>
+
+    <script src="ielts.js"></script>
+</body>
+</html>

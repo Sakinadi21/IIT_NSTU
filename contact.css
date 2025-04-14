@@ -1,0 +1,120 @@
+/* Blue-themed navbar */
+nav {
+    background-color: #1E3A8A; /* Dark Blue */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #93C5FD; /* Light Blue */
+}
+
+/* Blue-themed footer */
+footer {
+    background-color: #1E40AF; /* Deep Blue */
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #93C5FD; /* Light Blue */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+
+
+#resources, #testimonials, #contact, #newsletter, #discussion-forum, #career-guidance {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* White background for the section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for elevation */
+}
+
+#resources ul, #career-guidance ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+}
+
+#resources li, #career-guidance li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+.testimonial-item {
+    background-color: #f9f9f9; /* Light background for testimonials */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Space between testimonials */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for testimonials */
+}
+
+#contact-form, #newsletter-form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+}
+
+#contact-form input, #contact-form textarea, #newsletter-form input {
+    margin-bottom: 10px; /* Space between form elements */
+    padding: 10px; /* Padding for inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 5px; /* Rounded corners */
+}
+
+button {
+    background-color: #0056b3; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px;
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #004599; /* Darker button color on hover */
+}
+
+#discussion-forum {
+    display: flex;
+    flex-direction: column; /* Stack forum elements vertically */
+}
+
+#forum-post {
+    margin-bottom: 10px; /* Space below text area */
+    padding: 10px; /* Padding for text area */
+    border: 1px solid #ccc; /* Border for text area */
+    border-radius: 5px; /* Rounded corners */
+}
