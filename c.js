@@ -112,7 +112,7 @@ const resources = {
             { title: "Class 3: Microsoft Excel", link: "https://youtu.be/tvph9RuZvUg?si=Fk62YdocMe_1aonK" }
         ],
         notes: [
-            { title: "Technology", link: "https://drive.google.com/file/d/10Y19LAAt2d9elbmDJj-8vuy3qENpyRvq/view?usp=sharing" }
+            { title: "Technology", link: "https://drive.google.com/file/d/110Fxq_ANTd-I-CIHKstyx1R7Jwb8mC7-/view?usp=sharing" }
         ],
         // books: [
         //     { title: "Eloquent JavaScript", link: "https://example.com/eloquent-js" },
