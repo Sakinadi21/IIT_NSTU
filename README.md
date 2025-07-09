@@ -36,7 +36,8 @@ It’s a student-led initiative aimed at making the IIT journey easier, more org
 
 ---
 
-🚀 How to Run Locally
+
+## 🚀 How to Run
 Clone the repository:
 
 bash
@@ -47,10 +48,10 @@ Open index.html in any browser
 
 Explore the layout and features
 ---
-🙋‍♀️ Author
-Sakiba Belal
-BSc Software Engineering Student, NSTU
-IIT Department
-Passionate about helping juniors and building useful projects for the community
+
+## 🙋‍♀️ Author
+
+**Sakiba Belal**  
+🎓 Software Engineering Student, NSTU  IIT
 
 ---
