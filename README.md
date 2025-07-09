@@ -36,17 +36,21 @@ It’s a student-led initiative aimed at making the IIT journey easier, more org
 
 ---
 
-## 🚀 How to Run Locally
+🚀 How to Run Locally
+Clone the repository:
 
-1. Clone the repository:
-```bash
+bash
+Copy
+Edit
 git clone https://github.com/Sakinadi21/IIT_NSTU
----
-## 🙋‍♀️ Author
+Open index.html in any browser
 
-**Sakiba Belal**  
-🎓 B.Sc. in Software Engineering, NSTU  
-⚙️ Passionate about embedded systems and hardware simulation  
-🌱 Exploring microcontroller programming & digital electronics
+Explore the layout and features
+---
+🙋‍♀️ Author
+Sakiba Belal
+BSc Software Engineering Student, NSTU
+IIT Department
+Passionate about helping juniors and building useful projects for the community
 
 ---
