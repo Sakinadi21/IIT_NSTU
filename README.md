@@ -41,7 +41,7 @@ It’s a student-led initiative aimed at making the IIT journey easier, more org
 1. Clone the repository:
 ```bash
 git clone https://github.com/Sakinadi21/IIT_NSTU
-
+---
 ## 🙋‍♀️ Author
 
 **Sakiba Belal**  
